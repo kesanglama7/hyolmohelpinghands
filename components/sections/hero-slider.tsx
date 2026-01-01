@@ -23,14 +23,14 @@ export default function HeroSlider() {
 
   const slides = useMemo(() => [
     {
-      image: "/images/hero/slide-1.jpg",
+      image: "/images/hero/slide-1.png",
       title: "Humanism & Compassion",
       subtitle: "Humanity exists in everyone — it just needs an eye to see it and an open heart to feel it.",
       primaryCta: { label: "Get Involved", href: "/contact" },
       secondaryCta: { label: "What We Do", href: "/programs" },
     },
     {
-      image: "/images/hero/slide-2.jpg",
+      image: "/images/hero/slide-1.jpg",
       title: "Helping Hands in Action",
       subtitle: "From small support to meaningful change — we stand with communities when it matters most.",
       primaryCta: { label: "Support Us", href: "/contact" },

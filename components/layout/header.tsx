@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 type NavLink = { label: string; href: string };
 
@@ -93,11 +94,15 @@ export default function Header() {
       >
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
           <Link href="/" className="flex items-center gap-3">
-            <div
-              className={`grid h-10 w-10 place-items-center rounded-2xl text-sm font-bold ${brandChipClass}`}
-            >
-              HH
-            </div>
+<div className="grid h-10 w-10 place-items-center rounded-2xl overflow-hidden text-sm font-bold">
+  <Image 
+    src="/images/hhh.png" 
+    alt="Hyolmo Helping Hands Nepal Logo" 
+    width={40} 
+    height={40} 
+    className="w-full h-full object-cover" 
+  />
+</div>
             <div className="leading-tight">
               <p className="text-sm font-semibold tracking-tight">
                 Hyolmo Helping Hands Nepal

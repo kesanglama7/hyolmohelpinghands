@@ -72,7 +72,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Hyolmo Helping Hands Nepal. All rights
             reserved.
           </p>
-          <p>Built with Next.js • Minimal • SEO-friendly</p>
+          <p>Built by • Kesang • Tshering</p>
         </div>
       </div>
     </footer>
