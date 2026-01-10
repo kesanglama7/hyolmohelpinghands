@@ -21,6 +21,10 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         glass:
           "rounded-full border-2 border-white px-8 py-4 text-sm font-bold text-white hover:bg-white hover:text-black transition-all",
+        main: "bg-gradient-to-r from-emerald-700 to-emerald-600 text-white hover:from-emerald-600 hover:to-emerald-500",
+        hero: "bg-gradient-to-r from-emerald-700 to-emerald-600 text-white hover:from-emerald-600 hover:to-emerald-500 shadow-lg hover:shadow-xl hover:-translate-y-0.5 cursor-pointer transition-all",
+        heroOutline: "border-2 border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground/10 backdrop-blur-sm",
+        accent: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-md hover:shadow-lg",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

@@ -25,15 +25,9 @@ export default function Footer() {
               </Link>
               <Link
                 className="text-zinc-600 hover:text-zinc-900"
-                href="/programs"
+                href="/works"
               >
-                What We Do
-              </Link>
-              <Link
-                className="text-zinc-600 hover:text-zinc-900"
-                href="/gallery"
-              >
-                Gallery
+                Works
               </Link>
               <Link
                 className="text-zinc-600 hover:text-zinc-900"
@@ -50,14 +44,14 @@ export default function Footer() {
             <div className="mt-3 grid gap-2 text-sm text-zinc-600">
               <p>Tinchuli, Kathmandu, Nepal</p>
               <a
-                className="hover:text-zinc-900"
+                className="hover:text-zinc-900 hover:underline"
                 href="mailto:hyolmohelpinghands@gmail.com"
               >
                 hyolmohelpinghands@gmail.com
               </a>
               <a
-                className="hover:text-zinc-900"
-                href="https://facebook.com/"
+                className="hover:text-zinc-900 hover:underline"
+                href="https://www.facebook.com/wehyolmos"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -72,7 +66,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Hyolmo Helping Hands Nepal. All rights
             reserved.
           </p>
-          <p>Built by • Kesang • Tshering</p>
+          <p>Built by • <a href="https://www.kesanglama.com.np/" target="_blank" rel="noopener noreferrer" className="hover:underline">Kesang Lama</a> • <a href="https://www.tsheringnetuplama.com.np/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tshering Netuplama</a></p>
         </div>
       </div>
     </footer>

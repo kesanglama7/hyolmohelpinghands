@@ -123,8 +123,17 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    scroll-behavior: smooth;
   }
+  
   body {
     @apply bg-background text-foreground;
+  }
+  
+  section {
+    scroll-margin-top: 90px;
+  }
+  .bg-emerald {
+    @apply bg-gradient-to-r from-emerald-700 to-emerald-600
   }
 }
