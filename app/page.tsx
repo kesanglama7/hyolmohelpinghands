@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Hyolmo Helping Hands Nepal",
     description:
       "Supporting education, health, environment, and humanitarian relief across Nepal.",
-    url: "https://hyolmohelpinghands.com.np",
+    url: "https://www.hyolmohelpinghands.org.np",
     siteName: "Hyolmo Helping Hands Nepal",
     images: [
       {

@@ -104,7 +104,7 @@ const geistMono = Geist_Mono({
 const SITE_NAME = "Hyolmo Helping Hands Nepal";
 const SITE_DESCRIPTION =
   "Hyolmo Helping Hands Nepal is a non-profit organization supporting education, health, disaster relief, environmental protection, and community development across Nepal.";
-const SITE_URL = "https://hyolmohelpinghands.com.np";
+const SITE_URL = "https://www.hyolmohelpinghands.org.np";
 const OG_IMAGE = "/og.png";
 
 export const metadata: Metadata = {
