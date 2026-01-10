@@ -1,14 +1,16 @@
+import type { MetadataRoute } from "next";
 import { works } from "@/lib/data/works";
 
-export default function sitemap() {
-  const baseUrl = "https://hyolmohelpinghands.com.np";
+const SITE_URL = "https://hyolmohelpinghands.com.np";
 
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: `${baseUrl}`, lastModified: new Date() },
-    { url: `${baseUrl}/about`, lastModified: new Date() },
-    { url: `${baseUrl}/works`, lastModified: new Date() },
+    { url: `${SITE_URL}/`, lastModified: new Date() },
+    { url: `${SITE_URL}/about`, lastModified: new Date() },
+    { url: `${SITE_URL}/works`, lastModified: new Date() },
+    { url: `${SITE_URL}/contact`, lastModified: new Date() },
     ...works.map((w) => ({
-      url: `${baseUrl}/works/${w.slug}`,
+      url: `${SITE_URL}/works/${w.slug}`,
       lastModified: new Date(),
     })),
   ];

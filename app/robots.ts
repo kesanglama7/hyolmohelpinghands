@@ -1,11 +1,10 @@
-export default function robots() {
+import type { MetadataRoute } from "next";
+
+const SITE_URL = "https://hyolmohelpinghands.com.np";
+
+export default function robots(): MetadataRoute.Robots {
   return {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-      },
-    ],
-    sitemap: "https://hyolmohelpinghands.com.np/sitemap.xml",
+    rules: [{ userAgent: "*", allow: "/" }],
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }
