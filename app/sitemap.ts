@@ -1,7 +1,8 @@
+// app/sitemap.ts
 import type { MetadataRoute } from "next";
 import { works } from "@/lib/data/works";
 
-const SITE_URL = "https://hyolmohelpinghands.com.np";
+const SITE_URL = "https://www.hyolmohelpinghands.org.np";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
