@@ -743,7 +743,7 @@ export default function HeroSlider() {
 
             {/* Content Container */}
             <div className={`
-              relative z-20 flex h-full container mx-auto px-6 lg:px-8
+              relative z-20 flex h-full container mx-auto max-w-6xl px-6 lg:px-8
               items-center justify-center
               ${slide.position.startsWith("top") ? "md:items-start md:pt-[20vh]" : ""} 
               ${slide.position.startsWith("center") ? "md:items-center" : ""}
@@ -754,7 +754,7 @@ export default function HeroSlider() {
             `}>
               <div
                 className={`
-                  w-full max-w-5xl text-center
+                  w-full max-w-4xl text-center
                   ${slide.position.includes("left") ? "md:text-left" : ""}
                   ${slide.position.includes("center") ? "md:text-center" : ""}
                   ${slide.position.includes("right") ? "md:text-right" : ""}

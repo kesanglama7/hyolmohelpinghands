@@ -51,8 +51,8 @@ const ContactSection = () => {
     {
       icon: MapPin,
       label: "Address",
-      value: "Kathmandu, Nepal",
-      href: "#",
+      value: "Tinchuli, Kathmandu, Nepal",
+      href: "https://share.google/uEuH8mXRkDZGca4MY",
     },
   ];
 
@@ -88,6 +88,8 @@ const ContactSection = () => {
                 <a
                   key={info.label}
                   href={info.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-start gap-4 p-4 rounded-xl bg-card card-elevated hover:bg-card/80 transition-colors"
                 >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">

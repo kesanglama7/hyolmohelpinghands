@@ -11,7 +11,7 @@ export default function ProjectsPreviewSection() {
       <div className="mx-auto max-w-6xl px-4 py-14">
         <div className="flex items-end justify-between gap-6">
           <div>
-            <p className="text-sm font-medium text-muted-foreground">Projects</p>
+            <p className="text-2xl font-medium text-muted-foreground">Works</p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight">
               What we’re working on
             </h2>

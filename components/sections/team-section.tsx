@@ -50,10 +50,10 @@ export default function TeamSection() {
                 : "bg-white hover:bg-muted",
             ].join(" ")}
           >
-            Team ({team.length})
+            Team
           </button>
 
-          <button
+          {/* <button
             onClick={() => setTab("volunteer")}
             className={[
               "rounded-full px-4 py-2 text-sm font-medium border transition",
@@ -62,8 +62,8 @@ export default function TeamSection() {
                 : "bg-white hover:bg-muted",
             ].join(" ")}
           >
-            Volunteers ({volunteers.length})
-          </button>
+            Volunteers
+          </button> */}
         </div>
 
         {/* Grid */}

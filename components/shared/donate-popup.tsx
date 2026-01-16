@@ -152,12 +152,12 @@ export default function DonatePopup({
             </div>
 
             {/* Impact Note */}
-            <div className="bg-primary/10 rounded-lg p-4 text-center">
+            {/* <div className="bg-primary/10 rounded-lg p-4 text-center">
               <p className="text-sm text-foreground">
                 Your support strengthens our programs and helps us reach more
                 people.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

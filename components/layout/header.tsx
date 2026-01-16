@@ -797,13 +797,12 @@ export default function Header() {
 
           {/* Donate pinned */}
           <div className="px-4 pb-6">
-            <Link
-              href="/donate"
+            <button
+              onClick={() => openDonate("header")}
               className="w-full inline-flex justify-center rounded-xl px-4 py-3 text-sm font-semibold text-white transition bg-gradient-to-r from-emerald-700 to-emerald-600 hover:from-emerald-600 hover:to-emerald-500"
-              onClick={() => setMobileOpen(false)}
             >
               Donate
-            </Link>
+            </button>
           </div>
         </div>
       </div>

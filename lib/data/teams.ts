@@ -29,20 +29,20 @@ export const people: TeamPerson[] = [
     role: "Treasurer",
     group: "team",
     location: "Kathmandu, Nepal",
-    bio: "Treasurer: Safeguards financial integrity with rigorous oversight, transparent reporting, and strategies for sustainable funding to amplify community impact.",
+    // bio: "Treasurer: Safeguards financial integrity with rigorous oversight, transparent reporting, and strategies for sustainable funding to amplify community impact.",
     avatar: { src: "/images/team/treasurer.jpg", alt: "Chairperson" },
     socials: [{ label: "website", href: "https://tsheringnetuplama.com.np" }],
   },
 
   // Volunteers
-  {
-    id: "vol-1",
-    name: "Sonam Dorje Lama",
-    role: "Volunteer",
-    group: "volunteer",
-    location: "Nepal",
-    bio: "Supports field activities, distribution programs, and awareness campaigns.",
-    avatar: { src: "/images/team/vol-1.jpg", alt: "Volunteer" },
-    socials: [{ label: "website", href: "https://sonamdorjelama.com.np" }],
-  },
+  // {
+  //   id: "vol-1",
+  //   name: "Sonam Dorje Lama",
+  //   role: "Volunteer",
+  //   group: "volunteer",
+  //   location: "Nepal",
+  //   bio: "Supports field activities, distribution programs, and awareness campaigns.",
+  //   avatar: { src: "/images/team/vol-1.jpg", alt: "Volunteer" },
+  //   socials: [{ label: "website", href: "https://sonamdorjelama.com.np" }],
+  // },
 ];
